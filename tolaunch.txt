@@ -1,0 +1,2 @@
+path\to\hakaton> python backend\shpory\manage.py runserver
+path\to\hakaton\frontend> npm run dev

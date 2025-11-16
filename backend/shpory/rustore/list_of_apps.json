@@ -1,0 +1,119 @@
+[
+  {
+    "ID": "1",
+    "Name": "Мой Супер Банк",
+    "Developer": "SuperBank Dev Team",
+    "Category": "Финансы",
+    "Rate": 4.5,
+    "Age": "0+",
+    "Description": "Приложение для управления финансами, просмотра баланса, совершения переводов и оплаты услуг.",
+    "IconPath": "http://127.0.0.1:8000/data/icons/bank_icon.png",
+    "Screenshots": [
+      "http://127.0.0.1:8000/data/Screenshots/bank1.jpg",
+      "http://127.0.0.1:8000/data/Screenshots/bank2.jpg"
+    ],
+    "tags": ["банк", "платежи", "кредиты", "финансы", "управление", "деньги"],
+    "isNew": true,
+    "isEditorChoice": false,
+    "popularityScore": 85,
+    "FilePath": "http://127.0.0.1:8000/data/files/bank_app.apk"
+  },
+  {
+    "ID": "2",
+    "Name": "Игра: Побег из Лабиринта",
+    "Developer": "GameDev Studio",
+    "Category": "Игры",
+    "Rate": 4.2,
+    "Age": "12+",
+    "Description": "Увлекательная головоломка, в которой вы должны найти выход из постоянно меняющихся лабиринтов.",
+    "IconPath": "http://127.0.0.1:8000/data/icons/maze_icon.png",
+    "Screenshots": [
+      "http://127.0.0.1:8000/data/Screenshots/maze1.jpg",
+      "http://127.0.0.1:8000/data/Screenshots/maze2.jpg",
+      "http://127.0.0.1:8000/data/Screenshots/maze3.jpg"
+    ],
+    "tags": ["головоломка", "лабиринт", "приключение", "игры", "пазл"],
+    "isNew": false,
+    "isEditorChoice": true,
+    "popularityScore": 92,
+    "FilePath": "http://127.0.0.1:8000/data/files/gosuslugi_app.apk"
+  },
+  {
+    "ID": "3",
+    "Name": "Московский Метрополитен",
+    "Developer": "Городские Сервисы",
+    "Category": "Транспорт",
+    "Rate": 4.7,
+    "Age": "0+",
+    "Description": "Карта метро, расписания, навигация, информация о ремонтах и закрытых станциях.",
+    "IconPath": "http://127.0.0.1:8000/data/icons/metro_icon.png",
+    "Screenshots": [
+      "http://127.0.0.1:8000/data/Screenshots/metro1.png",
+      "http://127.0.0.1:8000/data/Screenshots/metro2.png"
+    ],
+    "tags": ["метро", "транспорт", "навигация", "москва", "карта", "расписание"],
+    "isNew": false,
+    "isEditorChoice": true,
+    "popularityScore": 95,
+    "FilePath": "http://127.0.0.1:8000/data/files/metro_app.apk"
+  },
+  {
+    "ID": "4",
+    "Name": "Госуслуги",
+    "Developer": "Минцифры",
+    "Category": "Государственные",
+    "Rate": 4.0,
+    "Age": "0+",
+    "Description": "Официальный портал государственных услуг. Регистрация, получение справок, запись в поликлинику.",
+    "IconPath": "http://127.0.0.1:8000/data/icons/gos_icon.png",
+    "Screenshots": [
+      "http://127.0.0.1:8000/data/Screenshots/gos1.webp",
+      "http://127.0.0.1:8000/data/Screenshots/gos2.webp",
+      "http://127.0.0.1:8000/data/Screenshots/gos3.webp"
+    ],
+    "tags": ["госуслуги", "документы", "государство", "официальный", "сервис"],
+    "isNew": true,
+    "isEditorChoice": false,
+    "popularityScore": 100,
+    "FilePath": "http://127.0.0.1:8000/data/files/gosuslugi_app.apk"
+  },
+  {
+    "ID": "5",
+    "Name": "Яндекс.Карты",
+    "Developer": "Yandex",
+    "Category": "Инструменты",
+    "Rate": 4.6,
+    "Age": "0+",
+    "Description": "Карты, навигация, поиск мест, общественный транспорт, пробки в реальном времени.",
+    "IconPath": "http://127.0.0.1:8000/data/icons/yandex_maps_icon.png",
+    "Screenshots": [
+      "http://127.0.0.1:8000/data/Screenshots/yandex_maps1.jpg",
+      "http://127.0.0.1:8000/data/Screenshots/yandex_maps2.png"
+    ],
+    "tags": ["карты", "навигация", "поиск", "транспорт", "пробки", "инструменты"],
+    "isNew": false,
+    "isEditorChoice": false,
+    "popularityScore": 98,
+    "FilePath": "http://127.0.0.1:8000/data/files/maps_app.apk"
+  },
+  {
+    "ID": "6",
+    "Name": "VK Мессенджер",
+    "Developer": "VK",
+    "Category": "Соцсети",
+    "Rate": 4.3,
+    "Age": "12+",
+    "Description": "Общение с друзьями, группы, новости, вызовы, голосовые сообщения.",
+    "IconPath": "http://127.0.0.1:8000/data/icons/vk_icon.png",
+    "Screenshots": [
+      "http://127.0.0.1:8000/data/Screenshots/vk1.jpg",
+      "http://127.0.0.1:8000/data/Screenshots/vk2.jpg",
+      "http://127.0.0.1:8000/data/Screenshots/vk3.jpg"
+    ],
+    "tags": ["мессенджер", "чат", "соцсети", "новости", "связь"],
+    "isNew": true,
+    "isEditorChoice": true,
+    "popularityScore": 89,
+    "FilePath": "http://127.0.0.1:8000/data/files/vk_app.apk"
+  }
+]
