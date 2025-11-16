@@ -1,0 +1,169 @@
+.logheader {
+    background-color: white;
+
+    height: 8vh;
+
+    border-bottom: 2px solid black;
+
+}
+
+.backbutton {
+    width: auto;
+    height: 7vh;
+
+    margin-top: 8px;
+    margin-left: 8px;
+    padding: 0;
+
+    background-color: white;
+
+    border: none;
+}
+
+.backbutton:hover {
+    background-color: red;
+}
+
+.eximg {
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+}
+
+.form {
+    min-width: 100%;
+    min-height: 88vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    align-items: center;
+
+    justify-content: space-around;
+
+    padding-top: 4vh;
+
+    background-image: url('../../assets/backdround.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.entryCard {
+    width: 25vw;
+    height: auto;
+
+    border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.changebuttonform {
+    display: flex;
+    flex-direction: row;
+
+    height: 7vh;
+    border-bottom: 2px solid black;
+}
+
+.changebutton1 {
+    width: 50%;
+    height: 100%;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    border-top-left-radius: 15px;
+    border: none;
+    border-right: 1px solid black;
+}
+
+.changebutton1:hover {
+    background-color: rgb(12, 231, 37);
+}
+
+.changebutton1.active {
+    background-color: rgb(12, 231, 37);
+}
+
+
+.changebutton2 {
+    width: 50%;
+    height: 100%;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    border-top-right-radius: 15px;
+    border: none;
+    border-left: 1px solid black;
+}
+
+.changebutton2:hover {
+    background-color: rgb(12, 125, 231);
+}
+
+.changebutton2.active {
+    background-color: rgb(12, 125, 231);
+}
+
+.eCard {
+    width: 100%;
+    height: 100%;
+
+    padding-left: 10%;
+    padding-top: 5%;
+
+    display: flex;
+    flex-direction: row;
+
+    align-content: center;
+
+
+
+}
+
+.inputform {
+
+    min-width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-size: 1.2em;
+}
+
+.input_ {
+    width: 20vw;
+    height: 2vw;
+
+    font-size: 1.1em;
+    color: black;
+}
+
+/*===========================*/
+
+.entrybutton {
+    width: auto;
+    height: 5vh;
+    background-color: mediumslateblue;
+}
+
+.entrybutton:hover {
+    background-color: white;
+}

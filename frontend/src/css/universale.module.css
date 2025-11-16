@@ -1,0 +1,191 @@
+:root {
+    --back-color: white;
+    --inverse-color: black;
+
+    --card-width: 20vw;
+    --card-height: 60vh;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    min-height: 10vh;
+    max-width: 100vw;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 1.5%;
+
+    background-color: var(--back-color);
+    border-bottom: 1px solid var(--inverse-color);
+
+    padding-left: 1.2%;
+    padding-right: 3%;
+}
+
+footer {
+    background-color: var(--inverse-color);
+    color: var(--back-color);
+
+    
+    min-height: 20vh;
+
+    /* position: fixed;
+    bottom: 0;
+
+    left: 0;
+    right: 0;
+    margin: 0 auto; */
+
+    opacity: 0.9;
+}
+
+.footer_text_block{
+    font-size:x-large;
+    padding-top: 1%;
+    padding-left: 3%;
+
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1%;
+}
+
+/* =============================== */
+
+.button1 {
+    background-color: var(--back-color);
+
+    border: 1px solid var(--inverse-color);
+    border-radius: 20px;
+
+    min-height: 5vh;
+    min-width: 7vw;
+
+    cursor: pointer;
+}
+
+.button1:hover {
+    transform: translateY(-5px);
+}
+
+.addstyle {
+    background-color: var(--inverse-color);
+    color: var(--back-color);
+}
+
+/* =================== */
+/* for Welcome */
+.content_1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.welcome_text_block {
+    color: var(--inverse-color);
+    max-width: 40%;
+}
+
+.welcome_title {
+    font-size: 600%;
+}
+
+.welcome_text{
+    font-size: 200%;
+}
+
+.three_d_block {
+    min-width: 40%;
+    min-height: 70vh;
+
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+/* ====================== */
+/* AppCard */
+
+
+.cardbody {
+    min-width: var(--card-width);
+    max-width: var(--card-width);
+
+    min-height:  var(--card-height);
+    max-height: var(--card-height);
+
+    margin: auto; 
+
+    background-color: var(--back-color);
+    color: var(--inverse-color);
+    border-radius: 4%;
+    box-shadow: 4px 4px 5px rgba(31, 29, 29, 0.3); 
+    border: 1px solid black;
+    
+    font-size: auto;
+
+    display: grid; 
+    grid-template-rows: 50% 5% auto  7%;
+
+    padding: 0.5%;
+}
+
+.cardphoto{
+    max-width: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    margin: auto;
+
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.cardname{
+    margin-left: 8%;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+.cardtext{
+    margin-left: 5%;
+}
+
+.cardbuttonsblock {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 10px;
+}
+
+.cardbutton{
+    border: none;
+    max-height: 80%;
+    width: 30%;
+    cursor: pointer;
+
+}
+
+.cardbutton:hover{
+    transform: translateY(-5px); 
+}
+/* ====== */
